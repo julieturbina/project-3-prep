@@ -1,0 +1,46 @@
+body{
+    color: gray;
+    font-family: arial;
+    font-weight: light;
+    margin: 2em;
+    text-align: center;
+}
+h1{
+    color: rgb(165, 6, 165);
+    text-align: center;
+    margin: auto;
+    font-size: 150%
+}
+
+h3 { 
+    color: rgb(254, 11, 254);
+    text-align: center;
+    margin: auto;
+    font-size: 150%
+}
+
+p {
+    color: red
+}
+
+img {
+    width: 100%;
+}
+
+ul{list-style: none;
+    /* margin: 0; */
+    padding: 0;
+}
+
+li {border-bottom: #ccc 3px dotted;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.container{
+    margin: auto;
+    width: 350px;
+    background: #9fdff2f7;
+    border: 3px rgba(99, 99, 104, 0.523) solid;
+    padding: 10px;
+}

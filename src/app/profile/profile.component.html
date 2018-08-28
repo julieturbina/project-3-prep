@@ -1,0 +1,24 @@
+
+<div class="container">
+  <h1>{{title}}</h1>
+  <p>Test = coming from profile component</p>
+  <img src="{{person.avatar}}">
+<h2>About me: My name is {{person.name}}, citizen of the world {{person.interests.name}} </h2>
+
+<div *ngIf= "showPlaces">
+
+<h3>Destination</h3>
+<ul>
+    <li>{{person.places.city1}}</li>
+    <li>{{person.places.city2}}</li>
+    <li>{{person.places.city3}}</li>
+  </ul>
+</div>
+
+  <h3>Interests</h3>
+  <ul>
+    <li *ngFor ="let interest of person.interests">
+    {{interest.name}}
+  </li>
+  </ul>
+</div> 
